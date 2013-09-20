@@ -11,6 +11,7 @@ Public
 .dropbox
 .macports
 .ssh
+.vim/vimundos
 
 # Files
 .CFUserTextEncoding
