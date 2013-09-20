@@ -1,0 +1,22 @@
+# Directories
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+.dropbox
+.macports
+.ssh
+
+# Files
+.CFUserTextEncoding
+.DS_Store
+.Trash
+.bash_history
+.profile
+.viminfo
+.gitconfig
