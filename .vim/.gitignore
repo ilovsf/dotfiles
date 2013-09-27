@@ -1,0 +1,2 @@
+# Specify what to exclude to be untracked in this subdirectory
+vimundos/*

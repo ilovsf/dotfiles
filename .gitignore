@@ -1,6 +1,8 @@
-*
-.vim/vimundos
+# First, to ignore all the files and subdirectories in the root
+/*
+/*/
 
+# Then, to specify what to include to be tracked
 !.vimrc
 !.bash_profile
 !README.md
