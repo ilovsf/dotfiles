@@ -11,8 +11,8 @@ set termencoding=utf-8          " THe encoding that terminal uses (vim所在终�
 set fileencodings=utf-8,chinese
 
 " ============= General Config (通用设置) ==============
-winpos 235 235                  " Set the position of the window (设置窗口起始位置)
-set lines=32 columns=100        " Set the width and height of the window (设置窗口的大小)
+winpos 235 135                  " Set the position of the window (设置窗口起始位置)
+set lines=32 columns=120        " Set the width and height of the window (设置窗口的大小)
 set number                      " Display line number (显示行号) 
 set backspace=indent,eol,start  " Allow backspace in insert mode (允许插入模式下使用退格键)
 set history=1000                " Store 1000 cmdline history (设置1000条历史命令记录)
@@ -68,11 +68,10 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
-" Detect file type automatically
-" 自动识别文件类型
-filetype plugin on
-filetype indent on
-filetype on
+" Detect file type automatically, and adapt plugin and indent according to the
+" file type in ~/.vim/ftplugin/file-type.vim
+" 自动识别文件类型，并根据文件类型加载类型插件文件以及缩进设置
+filetype plugin indent on
 
 " Display trailing spaces and TABs visually
 " 显式地展示末尾的空格和TAB
