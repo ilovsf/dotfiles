@@ -76,7 +76,7 @@ filetype plugin indent on
 " Display trailing spaces and TABs visually
 " 显式地展示末尾的空格和TAB
 set list
-set listchars=trail:.
+set listchars=tab:▸\ ,eol:¬
 
 " Don't wrap lines and wrap lines at convenient points
 " 禁止自动折行，仅在方便的位置折行:^I!@*-+_;:/?"

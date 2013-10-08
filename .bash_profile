@@ -1,6 +1,7 @@
 # update $PATH for third-party tools
 export PATH=$PATH:/opt/local/bin
 export PATH=$PATH:/opt/local/sbin
+export PATH=/usr/local/bin:$PATH
 
 # Alias command ll as ls -al
 alias ll="ls -al"
