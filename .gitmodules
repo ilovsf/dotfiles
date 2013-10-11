@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/TagList"]
 	path = .vim/bundle/TagList
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule ".vim/bundle/Flake8"]
+	path = .vim/bundle/Flake8
+	url = https://github.com/nvie/vim-flake8

@@ -59,7 +59,6 @@ set undolevels=1000             " Maximum times of undos (最大撤销次数)
 
 " ================== Indentation(缩进) ======================
 set autoindent                  " Automatically indent as previous line(与上一行缩进相同)
-set smartindent                 " Smart indent for C(C语言的智能缩进, 发现{}时处理不同)
 
 " Set the width of TAB as 4, expandtab means transfer TAB to spaces
 " 设置TAB键的宽度为4，并自动将TAB键转化为空格

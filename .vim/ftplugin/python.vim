@@ -33,3 +33,7 @@ else
     " Else change the modified time
     call ModifyDate()
 endif
+
+" Re-map Flake8 shortcut when python filetype detected
+" 重新映射调用Flake8插件的快捷键，当当前文件时python文件时
+map <silent> <leader>f :call Flake8()<CR>
