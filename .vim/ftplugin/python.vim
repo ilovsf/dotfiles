@@ -1,7 +1,7 @@
 " Python Config
 
 " Implement a function to write the skeleton code automatically
-function GenerateHeader()
+function! GenerateHeader()
     call setline(1, "#! /usr/bin/env python")
     call append(1, "# -*- coding: utf-8 -*-")
     call append(2, "")
@@ -18,7 +18,7 @@ function GenerateHeader()
 endf
 
 " Implement a function to change the modified time
-function ModifyDate()
+function! ModifyDate()
     if search("Last Modified") != 0
         let line = line('.')
         call setline(line, "# Last Modified: " . strftime("%Y-%m-%d %H:%M:%S"))
