@@ -10,3 +10,6 @@ alias pip="pip-2.7"
 
 # added by Anaconda 1.7.0 installer
 export PATH="//anaconda/bin:$PATH"
+
+# add python path
+export PYTHONPATH=$PYTHONPATH:/Users/feng/Repository
